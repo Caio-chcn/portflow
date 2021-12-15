@@ -1,0 +1,133 @@
+@media screen and (min-width: 400px){
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    dilplay:flex;
+  }
+  
+  section{
+    display:inline-block;
+    margin:10px;
+    
+  }
+  .home{
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-start;
+  }
+  
+  .port{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 100px;
+  }
+  
+  nav{
+    display:flex;
+    flex-direction:row-reverse;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  li{
+    display:inline;  
+    margin:15px;
+    justify-content:flex-end;
+  }
+  
+  li:hover{
+    cursor: pointer;
+    font-weight:bold;
+  }
+  .azul{
+    background-position: center;
+    background-image: url(assets/laranja.png);
+    height: 80vh;
+    width: 218vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  p{
+    margin-top: 50vh;
+  }
+  main{
+    display: inline-block;
+  }
+
+  .cha{
+    height: 50vh;
+  }
+  .pao{
+    height: 50vh;
+  }
+  .sorvete{
+    height: 50vh;
+  }
+  .monitor{
+    height: 50vh;
+  }
+  .coisas{
+    height: 50vh;
+  }
+  .caneca{
+    height: 50vh;
+  }
+  .macbook{
+    height: 50vh;
+  }
+  .barrinha{
+    height: 50vh;
+  }
+  .celular{
+    height: 50vh;
+  }
+  .cafe{
+    height: 50vh;
+  }
+  .camera{
+    height: 50vh;
+  }
+  .foto{
+    height: 50vh;
+  }
+  
+  footer{
+    margin-top: 90px;
+  }
+
+.facebook{
+  margin-right: 20px;
+}
+.twitter{
+  margin-right: 20px;
+}
+.instagram{
+  margin-right: 20px;
+}
+.telegram{
+  margin-right: 20px;
+}
+.whatts{
+  margin-right: 20px;
+}
+.youtube{
+  margin-right: 20px;
+}
+
+.copy{
+display: flex;
+justify-content:center;
+font-size: 6vh;
+margin-left: 40vw;margin-bottom: 9vh;
+}
+
+h4{
+  position: relative;
+  font-size: 1rem;  
+  color:black;
+  top: 0em;
+  left: 45em;
+}
